@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #251015;
+    height: 5vh;
+    font-family:cursive;
+}
+
+.header p {
+    color: white;
+}
+
+body {
+    background-image: (src="");
+    background-color: black;
+}
+
+.maincontain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    background-color: #FFFFFFcc;
+    border-radius: calc((2vh + 2vw) / 2);
+}
+
+.spl1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 23vw;
+    width: 23vw;
+    height: 45vh;
+}
+
+#img {
+    width:auto;
+    height: 40vh;
+    filter: grayscale(100%);
+}
+
+.spl2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 2px;
+    height: 45vh;
+    background-color: black;
+}
+
+#nametext1 {
+    text-align: left;
+    font-size: 4vw;
+    width: 22vw;
+    font-family: OutfitBlack;
+    margin-bottom: -8%;
+}
+
+#undertext {
+    text-align: left;
+    font-size: 2.95vw;
+    width: 22vw;
+    font-family: OutfitThin;
+    margin-bottom: 7%;
+}
+
+#undertext:any-link {
+    text-decoration: none;
+    color: black;
+}
+
+#nametext1:any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.genericInfo:any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.spl3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 21vw;
+    height: 45vh;
+    padding-left: 6%;
+    
+}
+
+.genericInfo {
+    text-align: left;
+    font-size: 1.5vw;
+    width: 22vw;
+    font-family: OutfitThin;
+    margin-bottom: -2.5%;
+}
+
+.genericInfo:link {
+    text-decoration: none;
+    color: black;
+}
+
+.low {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.swapper {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    height: 10%;
+    width: 10%;
+}
+
+.recol {
+    background-color: white;
+    border-radius: 1vh;
+    border-color: none;
+}
+
+.resize {
+    height: 5vh;
+    width: auto;
+}
+
+.nonclickable {
+    filter: invert(20%);
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: OutfitBlack;
+    src: url(../fonts/outfit/Outfit-Black.otf);
+}
+
+@font-face {
+    font-family: OutfitThin;
+    src: url(../fonts/outfit/Outfit-Thin.otf);
+}
