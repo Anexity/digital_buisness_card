@@ -17,8 +17,9 @@
 }
 
 body {
-    background-image: (src="");
-    background-color: black;
+    background-image: url('../assets/backgroundforweb.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .maincontain {
@@ -158,4 +159,39 @@ body {
 @font-face {
     font-family: OutfitThin;
     src: url(../fonts/outfit/Outfit-Thin.otf);
+}@media screen {
+    
+}
+
+/* scaling */
+
+@media (max-width: 1000px) {
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .spl2 {
+        display:none;
+    }
+
+    #nametext1 {
+        text-align: left;
+        font-size: 4vw;
+        width: 12vh;
+        font-family: OutfitBlack;
+        margin-bottom: -8%;
+    }
+    
+    #undertext {
+        text-align: left;
+        font-size: 2.95vw;
+        width: 12vh;
+        font-family: OutfitThin;
+        margin-bottom: 7%;
+    }
 }
